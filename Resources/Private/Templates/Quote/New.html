@@ -1,0 +1,86 @@
+
+<f:layout name="Default" />
+
+This template displays a NEW form for the current domain object.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        New.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+<h1><f:translate key='new_quote' /></h1>
+
+<f:flashMessages />
+
+<f:render partial="FormErrors" arguments="{object:Quote}" />
+
+<f:form action="create"  enctype="multipart/form-data"  name="newQuote" object="{newQuote}">
+   
+<table width="100%">
+    <tr>
+        <td width="25%" valign="top"><label for="username"><f:translate key="tx_spiribox_domain_model_quote.username" /> <span class="required"><f:translate key="required_asterix" /></span></label></td>
+        <td width="75%"><f:form.textfield property="username" /></td>
+    </tr>
+    <tr>
+        <td width="25%" valign="top"><label for="userlastname"><f:translate key="tx_spiribox_domain_model_quote.userlastname" /></label></td>
+        <td width="75%"><f:form.textfield property="userlastname" /></td>
+    </tr>
+    <tr>
+        <td width="25%" valign="top"><label for="ort"><f:translate key="tx_spiribox_domain_model_quote.ort" /> <span class="required"><f:translate key="required_asterix" /></span></label></td>
+        <td width="75%"><f:form.textfield property="ort" /></td>
+    </tr>
+    <tr>
+        <td width="25%" valign="top"><label for="verband"><f:translate key="tx_spiribox_domain_model_quote.verband" /></label></td>
+        <td width="75%"><f:form.textfield property="verband" /></td>
+    </tr>
+    <tr>
+        <td width="25%" valign="top"><label for="text"><f:translate key="tx_spiribox_domain_model_quote.text" /> <span class="required"><f:translate key="required_asterix" /></span></label></td>
+        <td width="75%"><f:form.textarea property="text" cols="40" rows="15" /></td>
+    </tr>
+    <tr>
+        <td width="25%" valign="top"><label for="bibelstelle"><f:translate key="tx_spiribox_domain_model_quote.bibelstelle" /></label></td>
+        <td width="75%"><f:form.textfield property="bibelstelle" /></td>
+    </tr>
+    <tr>
+        <td width="25%" valign="top"><label for="userAlter"><f:translate key="tx_spiribox_domain_model_quote.user_alter" /> <span class="required"><f:translate key="required_asterix" /></span></label></td>
+        <td width="75%"><f:form.textfield property="userAlter" /></td>
+    </tr>
+    <tr>
+        <td width="25%" valign="top"><label for="email"><f:translate key="tx_spiribox_domain_model_quote.email" /> <span class="required"><f:translate key="required_asterix" /></span></label></td>
+        <td width="75%"><f:form.textfield property="email" /></td>
+    </tr>
+    <tr>
+        <td width="25%" valign="top"><label for="kategorie"><f:translate key="tx_spiribox_domain_model_quote.kategorie" /> <span class="required"><f:translate key="required_asterix" /></span></label></td>
+        <td width="75%"><f:form.select property="kategorie" options="{category}" optionLabelField="title" /></td>
+    </tr>
+    
+    <tr>
+        <td width="25%" valign="top"><label for="useUploadedFile"><f:translate key="tx_spiribox_domain_model_quote.use_uploaded_file" /> <span class="required"><f:translate key="required_asterix" /></span></label></td>
+        <td width="75%">
+            
+            <f:form.upload property="useUploadedFile" ><br />
+                <f:if condition="{resource}">
+                    <f:image image="{resource}" alt="" width="50"/>
+                </f:if>
+            </f:form.upload>
+            
+        </td>
+    </tr>
+    
+    <tr>
+        <td width="25%" valign="top"></td>
+        <td width="75%"><f:form.textfield type="hidden" name="emptfield" /></td>
+    </tr>
+    
+    <tr>
+        <td width="100%" colspan="2" valign="top"><f:translate key="required_text" /></td>
+    </tr>
+</table>
+    <f:form.submit value="<f:translate key='send_new_quote' />" />
+</f:form>
+</f:section>

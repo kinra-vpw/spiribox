@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-05-20T12:35:40Z" product-name="spiribox">
+		<header/>
+		<body>
+			<trans-unit id="username.description">
+				<source>First name</source>
+			</trans-unit>
+			<trans-unit id="userlastname.description">
+				<source>Last name</source>
+			</trans-unit>
+			<trans-unit id="ort.description">
+				<source>City</source>
+			</trans-unit>
+			<trans-unit id="verband.description">
+				<source>Unit</source>
+			</trans-unit>
+			<trans-unit id="text.description">
+				<source>Message</source>
+			</trans-unit>
+			<trans-unit id="bibelstelle.description">
+				<source>Bible passage</source>
+			</trans-unit>
+			<trans-unit id="user_alter.description">
+				<source>Age</source>
+			</trans-unit>
+			<trans-unit id="email.description">
+				<source>eMail</source>
+			</trans-unit>
+			<trans-unit id="kategorie.description">
+				<source>Category</source>
+			</trans-unit>
+			<trans-unit id="use_uploaded_file.description">
+				<source>Image</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

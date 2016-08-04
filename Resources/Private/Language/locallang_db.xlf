@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-05-20T12:35:40Z" product-name="spiribox">
+		<header/>
+		<body>
+			<trans-unit id="tx_spiribox_domain_model_quote">
+				<source>Quotes</source>
+			</trans-unit>
+			<trans-unit id="tx_spiribox_domain_model_quote.username">
+				<source>First name</source>
+			</trans-unit>
+			<trans-unit id="tx_spiribox_domain_model_quote.userlastname">
+				<source>Last name</source>
+			</trans-unit>
+			<trans-unit id="tx_spiribox_domain_model_quote.ort">
+				<source>City</source>
+			</trans-unit>
+			<trans-unit id="tx_spiribox_domain_model_quote.verband">
+				<source>Unit</source>
+			</trans-unit>
+			<trans-unit id="tx_spiribox_domain_model_quote.text">
+				<source>Message</source>
+			</trans-unit>
+			<trans-unit id="tx_spiribox_domain_model_quote.bibelstelle">
+				<source>Passage</source>
+			</trans-unit>
+			<trans-unit id="tx_spiribox_domain_model_quote.user_alter">
+				<source>Age</source>
+			</trans-unit>
+			<trans-unit id="tx_spiribox_domain_model_quote.email">
+				<source>eMail</source>
+			</trans-unit>
+			<trans-unit id="tx_spiribox_domain_model_quote.kategorie">
+				<source>Category</source>
+			</trans-unit>
+			<trans-unit id="tx_spiribox_domain_model_quote.use_uploaded_file">
+				<source>Picture</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

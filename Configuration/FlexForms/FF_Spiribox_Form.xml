@@ -1,0 +1,65 @@
+<T3DataStructure>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>Form config</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <settings.quote.listpid>
+                        <TCEforms>
+                            <label>PageID Spiribox-Listenansicht</label>
+                            <config>
+                                <type>input</type>
+                                <eval>int</eval>
+                                <default>1</default>
+                            </config>
+                        </TCEforms>
+                    </settings.quote.listpid>
+                    <settings.quote.pcatid>
+                        <TCEforms>
+                            <label>PageID Hauptkategorie</label>
+                            <config>
+                                <type>input</type>
+                                <eval>int</eval>
+                                <default>0</default>
+                            </config>
+                        </TCEforms>
+                    </settings.quote.pcatid>
+                    <settings.quote.mailaddress>
+                        <TCEforms>
+                            <label>Empfänger-Mail Benachrichtigung</label>
+                            <config>
+                                <type>input</type>
+                                <size>50</size>
+                                <default>no-reply@example.org</default>
+                            </config>
+                        </TCEforms>
+                    </settings.quote.mailaddress>
+                    <settings.quote.mailsubject>
+                        <TCEforms>
+                            <label>Betreffzeile</label>
+                            <config>
+                                <type>input</type>
+                                <size>100</size>
+                                <default>BDKJ: Neues Spiribox-Statement</default>
+                            </config>
+                        </TCEforms>
+                    </settings.quote.mailsubject>
+                    <settings.quote.mailbody>
+                        <TCEforms>
+                            <label>Nachrichtentext</label>
+                            <config>
+                                <type>text</type>
+                                <cols>30</cols>
+                                <rows>5</rows>
+                                <default>Ein neues Statement ist eingegangen.</default>
+                            </config>
+                        </TCEforms>
+                    </settings.quote.mailbody>
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>

@@ -1,0 +1,56 @@
+<T3DataStructure>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>Random config</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <settings.quote.formpid>
+                        <TCEforms>
+                            <label>PageID Spiribox-Formular</label>
+                            <config>
+                                <type>input</type>
+                                <eval>int</eval>
+                                <default>1</default>
+                            </config>
+                        </TCEforms>
+                    </settings.quote.formpid>
+                    <settings.quote.listpid>
+                        <TCEforms>
+                            <label>PageID Spiribox-Listenansicht</label>
+                            <config>
+                                <type>input</type>
+                                <eval>int</eval>
+                                <default>1</default>
+                            </config>
+                        </TCEforms>
+                    </settings.quote.listpid>
+                    <settings.quote.max>
+                        <TCEforms>
+                            <label>Maximale Anzahl Statements</label>
+                            <config>
+                                <type>input</type>
+                                <size>2</size>
+                                <eval>int</eval>
+                                <default>1</default>
+                            </config>
+                        </TCEforms>
+                    </settings.quote.max>
+                     <settings.quote.catuid>
+                        <TCEforms>
+                            <exclude>1</exclude>
+                            <label>ID Kategorie</label>
+                            <config>
+                                <type>input</type>
+                                <eval>int</eval>
+                                <default>1</default>
+                            </config>
+                            </TCEforms>
+                    </settings.quote.catuid>
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>

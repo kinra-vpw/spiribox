@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+        <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2016-05-20T11:19:18Z" product-name="spiribox">
+		<header/>
+		<body>
+			<trans-unit id="tx_spiribox_domain_model_quote">
+				<source>Quotes</source>
+                                <target>Bibelzitate</target>
+			</trans-unit>
+			<trans-unit id="tx_spiribox_domain_model_quote.username">
+				<source>First name</source>
+                                <target>Vorname</target>
+			</trans-unit>
+			<trans-unit id="tx_spiribox_domain_model_quote.userlastname">
+				<source>Last name</source>
+                                <target>Nachname</target>
+			</trans-unit>
+			<trans-unit id="tx_spiribox_domain_model_quote.ort">
+				<source>City</source>
+                                <target>Ort</target>
+			</trans-unit>
+			<trans-unit id="tx_spiribox_domain_model_quote.verband">
+				<source>Unit</source>
+                                <target>Verband/Gruppe</target>
+			</trans-unit>
+			<trans-unit id="tx_spiribox_domain_model_quote.text">
+				<source>Message</source>
+                                <target>Spruch (max. 250 Zeichen)</target>
+			</trans-unit>
+			<trans-unit id="tx_spiribox_domain_model_quote.bibelstelle">
+				<source>Passage</source>
+                                <target>ggf. Bibelstelle</target>
+			</trans-unit>
+			<trans-unit id="tx_spiribox_domain_model_quote.user_alter">
+				<source>Age</source>
+                                <target>Alter</target>
+			</trans-unit>
+			<trans-unit id="tx_spiribox_domain_model_quote.email">
+				<source>eMail</source>
+                                <target>E-Mail</target>
+			</trans-unit>
+			<trans-unit id="tx_spiribox_domain_model_quote.kategorie">
+				<source>Category</source>
+                                <target>Kategorie</target>
+			</trans-unit>
+			<trans-unit id="tx_spiribox_domain_model_quote.use_uploaded_file">
+				<source>Picture</source>
+                                <target>Bild</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

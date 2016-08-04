@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+        <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2016-05-20T11:19:18Z" product-name="spiribox">
+		<header/>
+		<body>
+			<trans-unit id="tx_spiribox_domain_model_quote">
+				<source>Quotes</source>
+                                <target>Bibelzitate</target>
+			</trans-unit>
+			<trans-unit id="tx_spiribox_domain_model_quote.username">
+				<source>First name</source>
+                                <target>Vorname</target>
+			</trans-unit>
+			<trans-unit id="tx_spiribox_domain_model_quote.userlastname">
+				<source>Last name</source>
+                                <target>Nachname</target>
+			</trans-unit>
+			<trans-unit id="tx_spiribox_domain_model_quote.ort">
+				<source>City</source>
+                                <target>Ort</target>
+			</trans-unit>
+			<trans-unit id="tx_spiribox_domain_model_quote.verband">
+				<source>Unit</source>
+                                <target>Verband/Gruppe</target>
+			</trans-unit>
+			<trans-unit id="tx_spiribox_domain_model_quote.text">
+				<source>Message</source>
+                                <target>Spruch (max. 250 Zeichen)</target>
+			</trans-unit>
+			<trans-unit id="tx_spiribox_domain_model_quote.bibelstelle">
+				<source>Passage</source>
+                                <target>ggf. Bibelstelle</target>
+			</trans-unit>
+			<trans-unit id="tx_spiribox_domain_model_quote.user_alter">
+				<source>Age</source>
+                                <target>Alter</target>
+			</trans-unit>
+			<trans-unit id="tx_spiribox_domain_model_quote.email">
+				<source>eMail</source>
+                                <target>E-Mail</target>
+			</trans-unit>
+			<trans-unit id="tx_spiribox_domain_model_quote.kategorie">
+				<source>Category</source>
+                                <target>Kategorie</target>
+			</trans-unit>
+			<trans-unit id="tx_spiribox_domain_model_quote.use_uploaded_file">
+				<source>Picture</source>
+                                <target>Bild</target>
+			</trans-unit>
+                        <trans-unit id="new_quote">
+				<source>Your message</source>
+                                <target>Dein Statement</target>
+			</trans-unit>
+                        <trans-unit id="send_new_quote">
+				<source>Send</source>
+                                <target>Absenden</target>
+			</trans-unit>
+                        <trans-unit id="title_single_quote">
+				<source>Single view</source>
+                                <target>Detailansicht</target>
+			</trans-unit>
+                        <trans-unit id="title_list_quotes">
+				<source>List view</source>
+                                <target>Listenansicht</target>
+			</trans-unit>
+                        <trans-unit id="title_confirm_newquote">
+				<source>Thanks and please</source>
+                                <target>Danke und Bitte</target>
+			</trans-unit>
+                        <trans-unit id="text_confirm_newquote">
+				<source>Thanks for your entry. And please: a little patience. We read your text and watch us your pics on. Then we turn it freely. We just want to make sure that offensive, racist or inappropriate material found no place with us. And thanks again: for your understanding.</source>
+                                <target>Danke für Deinen Eintrag. Und Bitte: ein bisschen Geduld. Wir lesen Deinen Text und gucken uns Dein Bild an. Dann schalten wir es frei. Wir wollen nur sicherstellen, dass verletzende, rassistische oder jugendgefährdende Inhalte bei uns keinen Platz finden. Und noch mal Danke: für Dein Verständnis.</target>
+			</trans-unit>
+                        <trans-unit id="title_random_quote">
+				<source>Random view</source>
+                                <target>Zufallsansicht</target>
+			</trans-unit>
+                        <trans-unit id="back_list">
+				<source>Show all</source>
+                                <target>Alle anzeigen</target>
+			</trans-unit>
+                        <trans-unit id="required_asterix">
+				<source>*</source>
+                                <target>*</target>
+			</trans-unit>
+                        <trans-unit id="required_text">
+				<source>All fields with * are required.</source>
+                                <target>Alle mit * versehenen Felder sind Pflichtfelder.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

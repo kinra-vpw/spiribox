@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/michel/Sites/typo3-7.6.6/typo3conf/ext/spiribox/Configuration/TCA/Overrides/tt_content.php</file>
+            <file>file:/Users/michel/Sites/typo3-7.6.6/typo3conf/ext/spiribox/Classes/Domain/Model/Quote.php</file>
+            <file>file:/Users/michel/Sites/typo3-7.6.6/typo3conf/ext/spiribox/Configuration/TypoScript/setup.txt</file>
+            <file>file:/Users/michel/Sites/typo3-7.6.6/typo3conf/ext/spiribox/Configuration/TCA/tx_spiribox_domain_model_quote.php</file>
+            <file>file:/Users/michel/Sites/typo3-7.6.6/typo3conf/ext/spiribox/Configuration/FlexForms/FF_Spiribox_List.xml</file>
+            <file>file:/Users/michel/Sites/typo3-7.6.6/typo3conf/ext/spiribox/Resources/Private/Templates/Quote/New.html</file>
+            <file>file:/Users/michel/Sites/typo3-7.6.6/typo3conf/ext/spiribox/Configuration/FlexForms/FF_Spiribox_Random.xml</file>
+            <file>file:/Users/michel/Sites/typo3-7.6.6/typo3conf/ext/spiribox/Classes/Domain/Repository/QuoteRepository.php</file>
+            <file>file:/Users/michel/Sites/typo3-7.6.6/typo3conf/ext/spiribox/Resources/Private/Templates/Quote/Confirm.html</file>
+            <file>file:/Users/michel/Sites/typo3-7.6.6/typo3conf/ext/spiribox/ext_emconf.php</file>
+            <file>file:/Users/michel/Sites/typo3-7.6.6/typo3conf/ext/spiribox/Resources/Private/Templates/Quote/List.html</file>
+            <file>file:/Users/michel/Sites/typo3-7.6.6/typo3conf/ext/spiribox/Classes/Controller/QuoteController.php</file>
+            <file>file:/Users/michel/Sites/typo3-7.6.6/typo3conf/ext/spiribox/Resources/Private/Templates/Quote/Random.html</file>
+        </group>
+    </open-files>
+</project-private>

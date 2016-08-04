@@ -1,0 +1,52 @@
+
+<f:layout name="Default" />
+
+This Template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        List.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+<h1><f:translate key='title_list_quotes' /></h1>
+
+<f:flashMessages />
+
+<table  class="tx_spiribox" >
+	<tr>
+		<th><f:translate key="tx_spiribox_domain_model_quote.username" /></th>
+		<th><f:translate key="tx_spiribox_domain_model_quote.userlastname" /></th>
+		<th><f:translate key="tx_spiribox_domain_model_quote.ort" /></th>
+		<th><f:translate key="tx_spiribox_domain_model_quote.verband" /></th>
+		<th><f:translate key="tx_spiribox_domain_model_quote.text" /></th>
+		<th><f:translate key="tx_spiribox_domain_model_quote.bibelstelle" /></th>
+		<th><f:translate key="tx_spiribox_domain_model_quote.user_alter" /></th>
+		<th><f:translate key="tx_spiribox_domain_model_quote.email" /></th>
+		<th><f:translate key="tx_spiribox_domain_model_quote.kategorie" /></th>
+		<th><f:translate key="tx_spiribox_domain_model_quote.use_uploaded_file" /></th>
+		<th> </th>
+		<th> </th>
+	</tr>
+	<f:for each="{quotes}" as="quote">
+		<tr>
+			<td><f:link.action action="show" arguments="{quote : quote}"> {quote.username}</f:link.action></td>
+			<td>{quote.userlastname}</td>
+			<td>{quote.ort}</td>
+			<td>{quote.verband}</td>
+			<td>{quote.text}</td>
+			<td>{quote.bibelstelle}</td>
+			<td>{quote.userAlter}</td>
+			<td>{quote.email}</td>
+			<td>{quote.kategorie.title}</td>
+                        <td><f:image image="{quote.useUploadedFile}" alt="" width="50" /></td>
+		</tr>
+	</f:for>
+</table>
+<f:link.page pageUid="{settings.quote.formpid}"><f:translate key='new_quote' /></f:link.page>
+</f:section>
+

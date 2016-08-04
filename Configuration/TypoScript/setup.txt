@@ -1,0 +1,85 @@
+
+plugin.tx_spiribox_list {
+	view {
+		templateRootPaths.0 = {$plugin.tx_spiribox_list.view.templateRootPath}
+		partialRootPaths.0 = {$plugin.tx_spiribox_list.view.partialRootPath}
+		layoutRootPaths.0 = {$plugin.tx_spiribox_list.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_spiribox_list.persistence.storagePid}
+	}
+}
+
+plugin.tx_spiribox_random {
+	view {
+		templateRootPaths.0 = {$plugin.tx_spiribox_random.view.templateRootPath}
+		partialRootPaths.0 = {$plugin.tx_spiribox_random.view.partialRootPath}
+		layoutRootPaths.0 = {$plugin.tx_spiribox_random.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_spiribox_random.persistence.storagePid}
+	}
+}
+
+plugin.tx_spiribox_form {
+	view {
+		templateRootPaths.0 = {$plugin.tx_spiribox_form.view.templateRootPath}
+		partialRootPaths.0 = {$plugin.tx_spiribox_form.view.partialRootPath}
+		layoutRootPaths.0 = {$plugin.tx_spiribox_form.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_spiribox_form.persistence.storagePid}
+	}
+}
+
+config.tx_extbase {
+	persistence {
+		classes {
+			SpiriBox\Spiribox\Domain\Model\FileReference {
+				mapping {
+					tableName = sys_file_reference
+					columns {
+						uid_local.mapOnProperty = originalFileIdentifier
+					}
+				}
+			}
+		}
+	}
+	objects {
+		TYPO3\CMS\Extbase\Domain\Model\FileReference.className = SpiriBox\Spiribox\Domain\Model\FileReference
+	}
+}
+
+plugin.tx_spiribox._CSS_DEFAULT_STYLE (
+	textarea.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	input.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	.tx-spiribox table {
+		border-collapse:separate;
+		border-spacing:10px;
+	}
+
+	.tx-spiribox table th {
+		font-weight:bold;
+	}
+
+	.tx-spiribox table td {
+		vertical-align:top;
+	}
+
+	.typo3-messages .message-error {
+		color:red;
+	}
+
+	.typo3-messages .message-ok {
+		color:green;
+	}
+
+)

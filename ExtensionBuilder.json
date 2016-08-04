@@ -1,0 +1,199 @@
+{
+    "modules": [
+        {
+            "config": {
+                "position": [
+                    425,
+                    144
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": true,
+                    "_default1_show": true,
+                    "_default2_new_create": true,
+                    "_default3_edit_update": true,
+                    "_default4_delete": true,
+                    "customActions": []
+                },
+                "name": "Quote",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": false,
+                    "categorizable": true,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "149120759311"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "username",
+                            "propertyType": "String",
+                            "uid": "1373067452232"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "userlastname",
+                            "propertyType": "String",
+                            "uid": "1178697246953"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "ort",
+                            "propertyType": "String",
+                            "uid": "292023509073"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "verband",
+                            "propertyType": "String",
+                            "uid": "545554343288"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "text",
+                            "propertyType": "Text",
+                            "uid": "321842120299"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": true,
+                            "propertyIsRequired": false,
+                            "propertyName": "bibelstelle",
+                            "propertyType": "String",
+                            "uid": "245333360393"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "userAlter",
+                            "propertyType": "Integer",
+                            "uid": "680336761888"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "email",
+                            "propertyType": "String",
+                            "uid": "423624495470"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "kategorie",
+                            "propertyType": "String",
+                            "uid": "948233328364"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "useUploadedFile",
+                            "propertyType": "Image",
+                            "uid": "1406741977368"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": []
+                }
+            }
+        }
+    ],
+    "properties": {
+        "backendModules": [],
+        "description": "SpiriBox stellt Bibelzitate bereit. Diese k\u00f6nnen im Frontend per Formular erstellt werden und im Backend \u00fcber Datens\u00e4tze gepflegt werden. Au\u00dferdem gibt es eine Gesamtansicht aller Datens\u00e4tze f\u00fcr das Frontend.",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 7.6.0-7.6.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "7.6.0-7.6.99",
+            "version": "0.0.1"
+        },
+        "extensionKey": "spiribox",
+        "name": "SpiriBox",
+        "originalExtensionKey": "spiribox",
+        "originalVendorName": "kinra | vpw",
+        "persons": [
+            {
+                "company": "kinra | vpw",
+                "email": "michel@kinra.de",
+                "name": "Michel Blumenstein",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "Quote => list,show",
+                    "noncacheableActions": "",
+                    "switchableActions": ""
+                },
+                "key": "random",
+                "name": "SpiriBox Zufallsansicht"
+            },
+            {
+                "actions": {
+                    "controllerActionCombinations": "Quote => new",
+                    "noncacheableActions": "",
+                    "switchableActions": ""
+                },
+                "key": "form",
+                "name": "SpiriBox Formular"
+            }
+        ],
+        "vendorName": "SpiriBox"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2016-05-20 12:35",
+        "extension_builder_version": "7.6.0",
+        "be_user": " (1)"
+    }
+}
