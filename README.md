@@ -1,2 +1,2 @@
 # spiribox
-Eine Typo3-Extension auf Basis von Extbase/Fluid für das BDKJ
+Eine Typo3-Extension auf Basis von Extbase/Fluid für das BDKJ.
