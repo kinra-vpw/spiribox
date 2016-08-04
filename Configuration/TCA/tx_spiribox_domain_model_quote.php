@@ -167,7 +167,7 @@ return array(
 			'label' => 'LLL:EXT:spiribox/Resources/Private/Language/locallang_db.xlf:tx_spiribox_domain_model_quote.bibelstelle',
 			'config' => array(
 				'type' => 'input',
-				'cols' => 40,
+				'cols' => 50,
 				'rows' => 1,
 				'eval' => 'trim'
 			)
